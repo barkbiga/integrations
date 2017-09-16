@@ -1,0 +1,11 @@
+server:
+  port: 8091
+spring:
+  rabbitmq:
+    addresses: 192.168.99.101:5672
+    username: guest
+    password: guest
+    
+elasticsearch:
+  rainfall:
+    index : http://localhost:9200/raincell/rainfall

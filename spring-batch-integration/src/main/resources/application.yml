@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    addresses: 192.168.99.101:5672
+    username: guest
+    password: guest
+
+ftp:
+  host: 192.168.56.1
+  port: 21
+  username: anonymous
+  password: anonymous
+  localdirectory: D:\\temp\\
